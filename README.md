@@ -23,8 +23,9 @@ The AI uses a dataset (CSV file) with 16 attributes and 284 patient records to a
 
 Naïve Bayes (Gaussian), 
 Support Vector Machine (SVM), 
-Decision Tree and 
-Random Forest
+Decision Tree 
+Random Forest and 
+Single Variable Regressor
 
 **Dataset**
 
