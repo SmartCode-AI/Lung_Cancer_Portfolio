@@ -11,8 +11,8 @@ from sklearn.linear_model import LinearRegression, LogisticRegression
 from sklearn.metrics import accuracy_score, mean_absolute_error, mean_squared_error, median_absolute_error, r2_score, explained_variance_score
 from sklearn import tree
 
-# csvdata.info() "to check null values"
-# csvdata.head() "to check the convertions 0/1"
+#   data.info() "to check null values"
+#   data.head() "to check the convertions 0/1"
 
 # Loading the survey lung cancer.csv
 data = pd.read_csv('\survey lung cancer.csv')
