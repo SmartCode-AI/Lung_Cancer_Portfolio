@@ -2,9 +2,12 @@
 
 Gnb = GaussianNB()
 Gnb.fit(X_train, y_train)
-y_pred_gnb = Gnb.predict(X_test)
-accuracy = accuracy_score(y_test, y_pred_gnb)
-print("Naive Bayes Accuracy score:", accuracy * 100,"%")
+
+y_pred = Gnb.predict(X_test)
+accuracy = accuracy_score(y_test, y_pred)
+
+print(y_pred)
+print("Accuracy:",accuracy * 100,"%")
 
 #  Logistic Regression
 
