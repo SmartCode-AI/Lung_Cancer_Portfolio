@@ -41,7 +41,7 @@ y_pred = Gnb.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 
 print(y_pred)
-print("Accuracy:",accuracy * 100,"%")
+print("Naive Bayes GaussianNB Accuracy score:",accuracy * 100,"%")
 
 #   Support Vector Machine (Linear Kernel)
 
@@ -58,7 +58,7 @@ svm_plot.fit(X_train_plot, y_train_plot)
 y_pred_plot = svm_plot.predict(X_test_plot)
 from sklearn.metrics import accuracy_score
 accuracy_plot = accuracy_score(y_test_plot, y_pred_plot)
-print("SVM (AGE & SMOKING) Accuracy Score:",accuracy_plot * 100,"%")
+print("SVM Linear Kernel (AGE & SMOKING) Accuracy Score:",accuracy_plot * 100,"%")
 
 x_min, x_max = X_plot_features['AGE'].min() - 1, X_plot_features['AGE'].max() + 1
 y_min, y_max = X_plot_features['SMOKING'].min() - 1, X_plot_features['SMOKING'].max() + 1
